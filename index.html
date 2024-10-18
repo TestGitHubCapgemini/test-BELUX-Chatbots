@@ -50,7 +50,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Chat eShop benl JE DevMR</a>
+    <a class="navbar-brand" href="#">Chat eShop benl JE Hotfix</a>
   </nav>
   
   <div class="container">
@@ -325,10 +325,10 @@
 		embedded_svc.menu.settings.language = 'nl_NL'; //For example, enter 'en' or 'en-US'
 
 		embedded_svc.menu.init(
-			'https://psa-customerfirst--devmr.sandbox.my.salesforce.com',
+			'https://psa-customerfirst--hotfix.sandbox.my.salesforce.com',
 			'https://d.la12s-core1.sfdc-urlt2q.salesforceliveagent.com/chat',
 			gslbBaseURL,
-			'00Dbd000000PaWX',
+			'00D1x000000KYS3',
 			'Chat_eShop_be_JE'
 		);
 	};
@@ -349,7 +349,7 @@
 	}
 	if (!window.embedded_svc || !window.embedded_svc.menu) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://psa-customerfirst--devmr.sandbox.my.salesforce.com/embeddedservice/menu/fab.min.js');
+		s.setAttribute('src', 'https://psa-customerfirst--hotfix.sandbox.my.salesforce.com/embeddedservice/menu/fab.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
