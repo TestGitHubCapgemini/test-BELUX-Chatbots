@@ -325,10 +325,10 @@
 		embedded_svc.menu.settings.language = 'fr'; //For example, enter 'en' or 'en-US'
 
 		embedded_svc.menu.init(
-			'https://psa-customerfirst--preprod.sandbox.my.salesforce.com',
+			'https://psa-customerfirst--devmr.sandbox.my.salesforce.com',
 			'https://d.la12s-core1.sfdc-urlt2q.salesforceliveagent.com/chat',
 			gslbBaseURL,
-			'00D1x000000KYSu',
+			'00Dbd000000PaWX',
 			'Chat_Store_befr_DS'
 		);
 	};
@@ -349,7 +349,7 @@
 	}
 	if (!window.embedded_svc || !window.embedded_svc.menu) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://psa-customerfirst--preprod.sandbox.my.salesforce.com/embeddedservice/menu/fab.min.js');
+		s.setAttribute('src', 'https://psa-customerfirst--devmr.sandbox.my.salesforce.com/embeddedservice/menu/fab.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
